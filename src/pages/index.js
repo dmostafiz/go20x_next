@@ -397,20 +397,20 @@ export default function Home() {
         <ModalOverlay />
         <ModalContent>
           <ModalHeader borderBottom={'1px'} borderColor='gray.300'>
-            Verify your sponsor
+            Who reffered you?
           </ModalHeader>
           {/* <ModalCloseButton /> */}
           <ModalBody>
 
             <FormControl isRequired>
-              <FormLabel>Sponsor user name</FormLabel>
+              <FormLabel>Sponsor username</FormLabel>
               <Input value={username} onChange={e => setUsername(e.target.value)} placeholder='Enter sponsor username' />
             </FormControl>
 
           </ModalBody>
 
           <ModalFooter borderTop={'1px'} borderColor='gray.300' as={'sponsor'}>
-            <Button onClick={handleVerify} colorScheme='blue'>Verify Sponsor</Button>
+            <Button onClick={handleVerify} colorScheme='blue'>Submit</Button>
           </ModalFooter>
         </ModalContent>
       </Modal>
