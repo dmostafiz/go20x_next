@@ -6,6 +6,7 @@ import HomeLayout from './Layout/HomeLayout'
 
 export default function Home() {
   const { isOpen, onOpen, onClose } = useDisclosure()
+  const [sponsord, setSponsed] = useState()
 
   const [username, setUsername] = useState(null)
   const toast = useToast()
@@ -14,6 +15,8 @@ export default function Home() {
     const sponsor = Cookies.get('sponsor')
     if (!sponsor) {
       onOpen()
+    }else{
+      setSponsed(sponsor)
     }
   }, [])
 
@@ -44,7 +47,7 @@ export default function Home() {
         duration: 9000,
         isClosable: true,
       })
-      
+
       setTimeout(() => {
         window.location.href = `/`
       }, 500)
@@ -119,9 +122,9 @@ export default function Home() {
       <div className="main-wrpper">
         <section className="banner-wrapper">
           <div className="container">
-            <div className="headtitle">
-              <h6>Referred by: Your Name / username</h6>
-            </div>
+            {sponsord && <div className="headtitle">
+              <h6>Referred by: {sponsord}</h6>
+            </div>}
             <div className="row">
               <div className="col-md-6 col-sm-12">
                 <div className="banner-txt">

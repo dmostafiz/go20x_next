@@ -1,5 +1,5 @@
 import Axios from '@/Helpers/Axios'
-import { useToast } from '@chakra-ui/react'
+import { Center, Spinner, useToast } from '@chakra-ui/react'
 import Cookies from 'js-cookie'
 import { useRouter } from 'next/router'
 import React, { useEffect } from 'react'
@@ -57,6 +57,8 @@ export default function username() {
     }
 
     return (
-        <></>
+        <Center h={'100vh'}>
+            <Spinner />
+        </Center>
     )
 }
