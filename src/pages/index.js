@@ -2,7 +2,7 @@ import Axios from '@/Helpers/Axios'
 import { Button, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure, useToast } from '@chakra-ui/react'
 import Cookies from 'js-cookie'
 import { useEffect, useState } from 'react'
-import HomeLayout from './Layout/HomeLayout'
+import HomeLayout from '../Layout/HomeLayout'
 
 export default function Home() {
   const { isOpen, onOpen, onClose } = useDisclosure()
