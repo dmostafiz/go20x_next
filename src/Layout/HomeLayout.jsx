@@ -9,17 +9,17 @@ export default function HomeLayout({ children }) {
     const [sponsor, setSponsor] = useState(null)
 
     useEffect(() => {
-        async function getSponsor(){
+        async function getSponsor() {
 
             const username = Cookies.get('sponsor')
-    
-            const res = await Axios.get(`/sponsor/validate/${username}`)  
-    
+
+            const res = await Axios.get(`/sponsor/validate/${username}`)
+
             // console.log('Sponsor data: ', res.data)
-    
-            if(res?.data?.ok){
+
+            if (res?.data?.ok) {
                 setSponsor(res?.data?.user)
-            } 
+            }
         }
 
         getSponsor()
@@ -40,6 +40,7 @@ export default function HomeLayout({ children }) {
                 <script src="/js/jquery.js"></script>
                 <script src="/js/bootstrap.min.js"></script>
                 <script src="/js/custom.js"></script>
+                <script src="/facebook-pixel.js"></script>
             </Head>
 
 
