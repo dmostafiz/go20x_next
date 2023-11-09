@@ -403,7 +403,7 @@ export default function Home() {
         <ModalOverlay />
         <ModalContent>
           <ModalHeader borderBottom={'1px'} borderColor='gray.300'>
-            Who reffered you?
+            Who referred you?
           </ModalHeader>
           {/* <ModalCloseButton /> */}
           <ModalBody>
