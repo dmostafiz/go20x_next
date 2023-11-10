@@ -57,7 +57,7 @@ export default function Home() {
   const [firstName, setFirstName] = useState()
   const [lastName, setLastName] = useState()
   const [email, setEmail] = useState()
-  const [phoneNumber, setPhoneNumber] = useState()
+  const [phoneNumber, setPhoneNumber] = useState('')
 
   const handleSubmit = async () => {
 
@@ -166,11 +166,7 @@ export default function Home() {
                       <label>Email:</label>
                       <input onChange={e => setEmail(e.target.value)} value={email} type="text" name placeholder className="form-control" />
                     </div>
-                    <div className="form-group">
-                      <label>Phone No:</label>
-                      <input onChange={e => setPhoneNumber(e.target.value)} value={phoneNumber} type="text" name placeholder className="form-control" />
-                    </div>
-
+                
                     <h3>Submit your information below OR Skip it and JOIN NOW</h3>
                     <button onClick={handleSubmit} type="submit">Save My Spot</button>
                   </div>
