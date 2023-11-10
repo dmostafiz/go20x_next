@@ -76,7 +76,7 @@ export default function Home() {
       return onOpen()
     }
 
-    if (!firstName || !lastName || !email || !phoneNumber) {
+    if (!firstName || !lastName || !email) {
       return toast({
         title: 'All fields are required!',
         description: "",
