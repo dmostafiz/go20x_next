@@ -185,7 +185,7 @@ export default function Home() {
                       <input onChange={e => setEmail(e.target.value)} value={email} type="text" name placeholder className="form-control" />
                     </div>
 
-                    <h3>We will send your login credentials to email above</h3>
+                    <Text as={'h3'} fontSize={{base: '12px !important', xl: '15px !important'}}>We will send your login credentials to email above</Text>
                     <button onClick={handleSubmit} type="submit">Save My Spot</button>
                   </div>
                 </div>
@@ -395,7 +395,7 @@ export default function Home() {
                     <li>100% Retail Commissions</li>
                     <li>15% Wholesale Commissions</li>
                     <li>50% Check Match Bonus</li>
-                    <li>Over 80% Total Payoutok</li>
+                    <li>Over 80% Total Payout</li>
                   </ul>
                 </Box>
               </div>
