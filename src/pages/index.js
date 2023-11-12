@@ -387,7 +387,7 @@ export default function Home() {
                     <li>100% Retail Commissions</li>
                     <li>15% Wholesale Commissions</li>
                     <li>50% Check Match Bonus</li>
-                    <li>Over 80% Total Payout</li>
+                    <li>Over 80% Total Payoutok</li>
                   </ul>
                 </div>
               </div>
