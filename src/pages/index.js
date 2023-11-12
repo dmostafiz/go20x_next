@@ -374,7 +374,7 @@ export default function Home() {
         </section> */}
         <Box py={24} className="money-back-wrp">
           <Container maxW={'6xl'} className="">
-            <Box mb={10} fontSize={'50px'}>
+            <Box mb={28} fontSize={'50px'}>
               <Text as={'h2'} fontSize={'100px'}>Our Matrix automatically places everyone that joins <span>AFTER</span><br /> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</Text>
             </Box>
             <div className="row">
