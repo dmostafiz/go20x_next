@@ -369,17 +369,20 @@ body {
     padding: 0 0 0 25px;
     margin: 0 0 15px;
     position: relative;
-    margin-left: -29px !important
+    margin-left: -52px !important;
+    list-style: inside !important;
+
 }
-.money-data li:before{
-    position: absolute;
-    content:'';
+.money-data li::marker{
+    /* position: absolute; */
+    /* content:'';
     width: 8px;
     height: 8px;
     background: #377ef0;
-    border-radius: 50%;
-    top: 15px;
-    left: 0;
+    border-radius: 50%; */
+    /* top: 7px !important;
+    left: 0; */
+    color: #377ef0;
 }
 
 footer{
