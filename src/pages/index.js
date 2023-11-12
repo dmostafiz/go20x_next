@@ -175,7 +175,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="quality-wrp">
+        {/* <section className="quality-wrp">
           <div className="container">
             <h2>The HIGHEST quality products at the absolute <span>LOWEST</span><br /> prices with the <span>MAXIMUM</span> possible payout!</h2>
             <div className="quality-tabs">
@@ -361,7 +361,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="money-back-wrp">
           <div className="container">
             <h2>Our Matrix automatically places everyone that joins <span>AFTER</span><br /> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</h2>
