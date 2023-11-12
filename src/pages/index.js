@@ -422,25 +422,25 @@ export default function Home() {
                         </div>
                         <div className="b-block">
                           <div className="icon">
-                            <img src="/icon5.png" alt="icon" width={37} className="img-fluid" />
+                            <img src="/asset3/images/icon1.png" alt="icon" width={37} className="img-fluid" />
                           </div>
                           <h3>Unlimited Commission</h3>
                         </div>
                         <div className="b-block">
                           <div className="icon">
-                            <img src="/icon5.png" alt="icon" width={36} className="img-fluid" />
+                            <img src="/asset3/images/icon2.png" alt="icon" width={36} className="img-fluid" />
                           </div>
                           <h3>Bonuses and Free Product</h3>
                         </div>
                         <div className="b-block">
                           <div className="icon">
-                            <img src="/icon5.png" alt="icon" width={34} className="img-fluid" />
+                            <img src="/asset3/images/icon3.png" alt="icon" width={34} className="img-fluid" />
                           </div>
                           <h3>Daily and Weekly Deposits</h3>
                         </div>
                         <div className="b-block">
                           <div className="icon">
-                            <img src="/icon5.png" alt="icon" width={23} className="img-fluid" />
+                            <img src="/asset3/images/icon4.png" alt="icon" width={23} className="img-fluid" />
                           </div>
                           <h3>Free Cruises and Vacations</h3>
                         </div>
