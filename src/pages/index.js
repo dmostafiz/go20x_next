@@ -185,7 +185,7 @@ export default function Home() {
                       <input onChange={e => setEmail(e.target.value)} value={email} type="text" name placeholder className="form-control" />
                     </div>
 
-                    <h3>Submit your information below OR Skip it and JOIN NOW</h3>
+                    <h3>We will send your login credentials to email above</h3>
                     <button onClick={handleSubmit} type="submit">Save My Spot</button>
                   </div>
                 </div>
@@ -470,7 +470,7 @@ export default function Home() {
               </div>
               <div className="col-sm-12 col-md-12 col-lg-6">
                 <div className="benefit-image">
-                  <img src="/asset3/images/benefit.png" alt="benefit" className="img-fluid" />
+                  <img src="/benefit.png" alt="benefit" className="img-fluid" />
                   <div className="bg-img">
                     <img src="/asset3/images/img-b.png" alt="benefit" className="img-fluid" />
                   </div>
