@@ -362,7 +362,7 @@ export default function Home() {
             </div>
           </div>
         </section> */}
-        <section className="money-back-wrp">
+        <Box py={24} className="money-back-wrp">
           <div className="container">
             <h2>Our Matrix automatically places everyone that joins <span>AFTER</span><br /> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</h2>
             <div className="row">
@@ -386,7 +386,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </Box>
       
         <div className="benefits">
           <div className="container">
