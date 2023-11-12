@@ -483,7 +483,7 @@ export default function Home() {
                   <img src="/asset3/images/product-img.png" alt="product-img" className="img-fluid" />
                 </div>
 
-                <div className="image d-flex d-md-none">
+                {/* <div className="image d-flex d-md-none">
                   <div className="img1">
                     <img src="/asset3/images/pro1.png" alt="product-img" width={254} className="img-fluid" />
                   </div>
@@ -493,7 +493,7 @@ export default function Home() {
                   <div className="img3">
                     <img src="/asset3/images/pro3.png" alt="product-img" width={196} className="img-fluid" />
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
