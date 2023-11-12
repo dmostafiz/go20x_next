@@ -1,5 +1,5 @@
 import Axios from '@/Helpers/Axios'
-import { Box, Button, Container, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure, useToast } from '@chakra-ui/react'
+import { Box, Button, Container, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Text, useDisclosure, useToast } from '@chakra-ui/react'
 import Cookies from 'js-cookie'
 import { useEffect, useState } from 'react'
 import HomeLayout from '../Layout/HomeLayout'
@@ -126,13 +126,22 @@ export default function Home() {
   return (
     <HomeLayout>
       <div className="main-wrpper">
-        <section className="banner-wrapper">
-          <Container maxW={'5xl'}>
+        {/* <header className="header" style={{ padding: 10 }}>
+          <Container maxW={'7xl'}>
+            <div style={{ padding: '0 20px' }}>
+              <img src="https://xceleratefueltabs.com/landing/images/logo.png" />
+              <a href="/login" style={{ float: 'right', padding: 9, background: 'white', textDecoration: 'none', color: 'black', borderRadius: 10, marginTop: 10 }}>Login
+                Now</a>
+            </div>
+          </Container>
+        </header> */}
+        <Box className="banner-wrapper">
+          <Container maxW={'6xl'}>
             {sponsord && <div className="headtitle">
               <h6>Referred by: {sponsord}</h6>
             </div>}
             <div className="row">
-              <div className="col-md-6 col-sm-12">
+              <div className="col-md-6 col-12">
                 <div className="banner-txt">
                   <h3>This $20 business changes</h3>
                   <h1>EVERYTHING</h1>
@@ -141,7 +150,7 @@ export default function Home() {
                   <p>Network Marketing will never be the same</p>
                   <div className="video-bx">
                     <div className="youtube-video">
-                      <iframe width="100%" height={420} src="https://www.youtube.com/embed/65JiGVxLvlg" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+                      <iframe width="100%" height={620} src="https://www.youtube.com/embed/65JiGVxLvlg" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
                     </div>
                     <a href="javascript:void(0);" className="play-icon">
                       <i className="far fa-play-circle fa-fw" />
@@ -149,7 +158,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-sm-12">
+              <div className='col-md-1 col-12'></div>
+              <div className="col-md-5 col-12">
                 <div className="join-frm">
                   <div className="join-block">
                     <h2><span>Easy</span> TO JOIN AND SHARE</h2>
@@ -174,7 +184,7 @@ export default function Home() {
               </div>
             </div>
           </Container>
-        </section>
+        </Box>
         {/* <section className="quality-wrp">
           <div className="container">
             <h2>The HIGHEST quality products at the absolute <span>LOWEST</span><br /> prices with the <span>MAXIMUM</span> possible payout!</h2>
@@ -364,11 +374,11 @@ export default function Home() {
         </section> */}
         <Box py={24} className="money-back-wrp">
           <Container maxW={'6xl'} className="">
-            <Box mb={10}>
-              <h2>Our Matrix automatically places everyone that joins <span>AFTER</span><br /> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</h2>
+            <Box mb={10} fontSize={'50px'}>
+              <Text as={'h2'} fontSize={'100px'}>Our Matrix automatically places everyone that joins <span>AFTER</span><br /> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</Text>
             </Box>
             <div className="row">
-              <div className="col-md-5 col-sm-12">
+              <div className="col-md-6 col-sm-12">
                 <div className="money-data">
                   <h3>No Ridiculous Qualifiers</h3>
                   <ul>
@@ -377,11 +387,11 @@ export default function Home() {
                     <li>10 Levels of Retail Bonuses</li>
                     <li>10 Levels of Wholesale Bonuses</li>
                     <li>5 Levels of Check Match Bonuses</li>
-                    <li>3 x 10 FORCED Matrix = 88,572<br /> (Compare to a 2 x 15 with only 65,534)</li>
+                    <li>3 x 10 FORCED Matrix = 88,572</li>
                   </ul>
                 </div>
               </div>
-              <div className="col-md-7 col-sm-12">
+              <div className="col-md-6 col-sm-12">
                 <div className="money-back-img">
                   <img src="/images/complogo2.png" alt />
                 </div>

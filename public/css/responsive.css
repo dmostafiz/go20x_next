@@ -35,10 +35,10 @@
 	.quality-dt{padding: 15px;}
 	.quality-dt p{font-size: 14px;line-height: 22px;}
 
-	.money-back-wrp h2{font-size: 28px;line-height: 38px;margin: 0 0 25px;}
+	/* .money-back-wrp h2{font-size: 28px;line-height: 38px;margin: 0 0 25px;} */
 	.money-back-wrp h2 br{display: none;}
 	.money-data h3{font-size: 26px;line-height: 32px;}
-	.money-data li{font-size: 18px;line-height: 24px;}
+	/* .money-data li{font-size: 18px;line-height: 24px;} */
 	.money-back-img img{width: 100%;}
 	footer h6{font-size: 18px;line-height: 26px;}
 }
