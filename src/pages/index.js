@@ -142,8 +142,8 @@ export default function Home() {
             </div>}
             <div className="row">
               <div className="col-md-5 col-12">
-                <Flex display={'col'} justify={{base: 'center', xl: 'left'}} className="banner-txt">
-                  <Text as={'h3'} fontSize={{ base: '', lg: '36px !important' }}>This $20 business changes</Text>
+                <Box w={'full'} className="banner-txt">
+                  <Text as={'h3'} textAlign={'center !important'} fontSize={{ base: '32px !important', lg: '36px !important' }}>This $20 business changes</Text>
                   <Text as='h1' mt={'-15px !important'} fontSize={{ base: '', lg: '70px !important' }}>EVERYTHING</Text>
                   <Box position={'relative'} mb={'-100px'}>
                     <Box>
@@ -162,7 +162,7 @@ export default function Home() {
                       <i className="far fa-play-circle fa-fw" />
                     </a>
                   </div>
-                </Flex>
+                </Box>
               </div>
               <div className='col-md-2 col-12'></div>
               <div className="col-md-5 col-12">
