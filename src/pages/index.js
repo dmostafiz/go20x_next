@@ -1,5 +1,5 @@
 import Axios from '@/Helpers/Axios'
-import { Box, Button, Container, Flex, FormControl, FormLabel, Image, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Text, useDisclosure, useToast } from '@chakra-ui/react'
+import { Box, Button, Container, Flex, FormControl, FormLabel, Image, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Show, Text, useDisclosure, useToast } from '@chakra-ui/react'
 import Cookies from 'js-cookie'
 import { useEffect, useState } from 'react'
 import HomeLayout from '../Layout/HomeLayout'
@@ -143,16 +143,18 @@ export default function Home() {
             <div className="row">
               <div className="col-md-5 col-12">
                 <Box w={'full'} className="banner-txt">
-                  <Text as={'h3'} textAlign={'center !important'} fontSize={{ base: '32px !important', lg: '36px !important' }}>This $20 business changes</Text>
+                  <Text as={'h3'} textAlign={'center !important'} fontSize={{ base: '27px !important', lg: '36px !important' }}>This $20 business changes</Text>
                   <Text as='h1' mt={'-15px !important'} fontSize={{ base: '', lg: '70px !important' }}>EVERYTHING</Text>
-                  <Box position={'relative'} mb={'-100px'}>
+                  <Box position={'relative'} mb={{xl:'-100px'}}>
                     <Box>
                       <h4>A Global Opportunity</h4>
                       <Text as={'h2'} fontSize={{base: '', xl: '36px !important'}} fontWeight={'bold !important'}>WATCH THIS VIDEO</Text>
                       <p>Network Marketing will never be the same</p>
                     </Box>
 
+                    <Show above='lg'>
                     <Image top={'-120'} right={'-350px'} position={'relative'} src='/images/down-arr.png' />
+                    </Show>
                   </Box>
                   <div className="video-bx">
                     <div className="youtube-video">
