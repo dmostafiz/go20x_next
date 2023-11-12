@@ -501,7 +501,7 @@ p {
 }
 
 .benefits {
-	background: url(../images/benefit-bg.png);
+	/* background: url(../images/benefit-bg.png); */
 	background-size: cover;
 	position: relative;
 	z-index: 99;
