@@ -383,11 +383,11 @@ export default function Home() {
                   <h3>No Ridiculous Qualifiers</h3>
                   <ul>
                     {/* <li>Up to $3,279.00 per month. No sponsoring </li> */}
-                    <li>10 Levels of Fast Start Bonuses</li>
-                    <li>10 Levels of Retail Bonuses</li>
-                    <li>10 Levels of Wholesale Bonuses</li>
-                    <li>5 Levels of Check Match Bonuses</li>
-                    <li>3 x 10 FORCED Matrix = 88,572</li>
+                    <li>80% Fast Start Bonus</li>
+                    <li>100% Retail Commissions</li>
+                    <li>15% Wholesale Commissions</li>
+                    <li>50% Check Match Bonus</li>
+                    <li>Over 80% Total Payout</li>
                   </ul>
                 </div>
               </div>
