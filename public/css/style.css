@@ -369,6 +369,7 @@ body {
     padding: 0 0 0 25px;
     margin: 0 0 15px;
     position: relative;
+    margin-left: -29px !important
 }
 .money-data li:before{
     position: absolute;
