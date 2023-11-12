@@ -1,5 +1,5 @@
 import Axios from '@/Helpers/Axios'
-import { Box, Button, Container, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Text, useDisclosure, useToast } from '@chakra-ui/react'
+import { Box, Button, Container, Flex, FormControl, FormLabel, Image, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Text, useDisclosure, useToast } from '@chakra-ui/react'
 import Cookies from 'js-cookie'
 import { useEffect, useState } from 'react'
 import HomeLayout from '../Layout/HomeLayout'
@@ -141,13 +141,19 @@ export default function Home() {
               <h6>Referred by: {sponsord}</h6>
             </div>}
             <div className="row">
-              <div className="col-md-6 col-12">
-                <div className="banner-txt">
-                  <h3>This $20 business changes</h3>
-                  <h1>EVERYTHING</h1>
-                  <h4>A Global Opportunity</h4>
-                  <h2>WATCH THIS VIDEO</h2>
-                  <p>Network Marketing will never be the same</p>
+              <div className="col-md-5 col-12">
+                <Flex display={'col'} justify={{base: 'center', xl: 'left'}} className="banner-txt">
+                  <Text as={'h3'} fontSize={{ base: '', lg: '36px !important' }}>This $20 business changes</Text>
+                  <Text as='h1' mt={'-15px !important'} fontSize={{ base: '', lg: '70px !important' }}>EVERYTHING</Text>
+                  <Box position={'relative'} mb={'-100px'}>
+                    <Box>
+                      <h4>A Global Opportunity</h4>
+                      <Text as={'h2'} fontSize={{base: '', xl: '36px !important'}} fontWeight={'bold !important'}>WATCH THIS VIDEO</Text>
+                      <p>Network Marketing will never be the same</p>
+                    </Box>
+
+                    <Image top={'-120'} right={'-350px'} position={'relative'} src='/images/down-arr.png' />
+                  </Box>
                   <div className="video-bx">
                     <div className="youtube-video">
                       <iframe width="100%" height={620} src="https://www.youtube.com/embed/65JiGVxLvlg" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
@@ -156,9 +162,9 @@ export default function Home() {
                       <i className="far fa-play-circle fa-fw" />
                     </a>
                   </div>
-                </div>
+                </Flex>
               </div>
-              <div className='col-md-1 col-12'></div>
+              <div className='col-md-2 col-12'></div>
               <div className="col-md-5 col-12">
                 <div className="join-frm">
                   <div className="join-block">
@@ -374,12 +380,12 @@ export default function Home() {
         </section> */}
         <Box py={24} className="money-back-wrp">
           <Container maxW={'6xl'} className="">
-            <Box mb={{base: 10, xl:28}} fontSize={'50px'}>
-              <Text as={'h2'} fontSize={{base: '20px !important', xl:'39px !important'}}>Our Matrix automatically places everyone that joins <span>AFTER</span> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</Text>
+            <Box mb={{ base: 10, xl: 28 }} fontSize={'50px'}>
+              <Text as={'h2'} fontSize={{ base: '20px !important', xl: '39px !important' }}>Our Matrix automatically places everyone that joins <span>AFTER</span> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</Text>
             </Box>
             <div className="row">
               <div className="col-md-6 col-sm-12">
-                <Box ml={{base: 10, lg: 0}} className="money-data">
+                <Box ml={{ base: 10, lg: 0 }} className="money-data">
                   <h3>No Ridiculous Qualifiers</h3>
                   <ul>
                     {/* <li>Up to $3,279.00 per month. No sponsoring </li> */}

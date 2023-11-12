@@ -70,7 +70,7 @@ body {
     padding: 0 20px 0 0;
 }
 .banner-txt h3{
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 500;
     color: #000;
     margin: 0 0 15px;
@@ -79,7 +79,7 @@ body {
     display: table;
 }
 .banner-txt h1{
-    font-size: 120px;
+    font-size: 70px;
     font-weight: 800;
     color: #fff;
     text-transform: uppercase;
@@ -108,16 +108,16 @@ body {
 .video-bx{
     position: relative;
 }
-.video-bx:after{
+/* .video-bx:after{
     position: absolute;
     content: '';
-    width: 54px;
-    height: 66px;
+    width: 80px !important;
+    height: 90px !important;
     background:url('../images/down-arr.png') 0 0 no-repeat;
     background-size: 100%;
-    top:-95px;    
-    right: 30%;
-}
+    top:-120px !important;    
+    right: 70px !important;
+} */
 .play-icon{
     position: absolute;
     font-size: 82px;

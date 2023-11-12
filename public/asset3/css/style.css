@@ -501,8 +501,9 @@ p {
 }
 
 .benefits {
-	background: url(../images/benefit-bg.png);
-	background-size: cover;
+	background: url(../../bg.jpeg);
+	background-size: contain;
+	background-position: center;
 	position: relative;
 	z-index: 99;
 	padding: 125px 0 75px;
@@ -514,7 +515,7 @@ p {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: rgba(34,34,34,0.8);
+	/* background: rgba(34,34,34,0.8); */
 	content: "";
 	z-index: -1;
 }
