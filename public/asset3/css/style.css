@@ -602,6 +602,7 @@ p {
 	color: #f7b00a;
 }
 .get-list ul li::marker {
+	display: block !important;
 	color: #f7b00a ;
 }
 
@@ -611,6 +612,7 @@ p {
 }
 
 .get-list ul li {
+	list-style: outside !important;
 	font-size: 24px;
 	line-height: 28px;
 	color: #ffffff;
