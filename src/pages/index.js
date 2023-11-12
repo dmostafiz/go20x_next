@@ -143,7 +143,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-5 col-12">
                 <Box w={'full'} className="banner-txt">
-                  <Text as={'h3'} textAlign={'center !important'} fontSize={{ base: '27px !important', lg: '36px !important' }}>This $20 business changes</Text>
+                  <Text ml={{base: '5px !important', lg: '0px !important'}} as={'h3'} textAlign={'center !important'} fontSize={{ base: '27px !important', lg: '36px !important' }}>This $20 business changes</Text>
                   <Text as='h1' mt={'-15px !important'} fontSize={{ base: '', lg: '70px !important' }}>EVERYTHING</Text>
                   <Box position={'relative'} mb={{xl:'-100px'}}>
                     <Box>
