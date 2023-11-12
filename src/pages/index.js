@@ -375,11 +375,11 @@ export default function Home() {
         <Box py={24} className="money-back-wrp">
           <Container maxW={'6xl'} className="">
             <Box mb={{base: 10, xl:28}} fontSize={'50px'}>
-              <Text as={'h2'} fontSize={'100px'}>Our Matrix automatically places everyone that joins <span>AFTER</span><br /> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</Text>
+              <Text as={'h2'} fontSize={{base: '20px !important', xl:'39px !important'}}>Our Matrix automatically places everyone that joins <span>AFTER</span> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</Text>
             </Box>
             <div className="row">
               <div className="col-md-6 col-sm-12">
-                <div className="money-data">
+                <Box ml={{base: 10, lg: 0}} className="money-data">
                   <h3>No Ridiculous Qualifiers</h3>
                   <ul>
                     {/* <li>Up to $3,279.00 per month. No sponsoring </li> */}
@@ -389,7 +389,7 @@ export default function Home() {
                     <li>50% Check Match Bonus</li>
                     <li>Over 80% Total Payoutok</li>
                   </ul>
-                </div>
+                </Box>
               </div>
               <div className="col-md-6 col-sm-12">
                 <div className="money-back-img">
