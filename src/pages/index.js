@@ -382,7 +382,7 @@ export default function Home() {
                 <div className="money-data">
                   <h3>No Ridiculous Qualifiers</h3>
                   <ul>
-                    <li>Up to $3,279.00 per month. No sponsoring </li>
+                    {/* <li>Up to $3,279.00 per month. No sponsoring </li> */}
                     <li>10 Levels of Fast Start Bonuses</li>
                     <li>10 Levels of Retail Bonuses</li>
                     <li>10 Levels of Wholesale Bonuses</li>
