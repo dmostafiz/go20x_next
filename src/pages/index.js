@@ -383,7 +383,7 @@ export default function Home() {
         <Box py={24} className="money-back-wrp">
           <Container maxW={'6xl'} className="">
             <Box mb={{ base: 10, xl: 28 }} fontSize={'50px'}>
-              <Text as={'h2'} fontSize={{ base: '15px !important', xl: '39px !important' }} lineHeight={{base: '22px !important', xl: '55px !important'}}>Our Matrix automatically places everyone that joins <span>AFTER</span> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</Text>
+              <Text as={'h2'} fontSize={{ base: '15px !important', xl: '39px !important' }} lineHeight={{base: '22px !important', xl: '55px !important'}}>Our Matrix automatically places everyone that joins <span>AFTER</span> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings</Text>
             </Box>
             <div className="row">
               <div className="col-md-6 col-sm-12">
