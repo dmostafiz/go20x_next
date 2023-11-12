@@ -170,7 +170,7 @@ export default function Home() {
               <div className="col-md-5 col-12">
                 <div className="join-frm">
                   <div className="join-block">
-                    <h2><span>Easy</span> TO JOIN AND SHARE</h2>
+                    <Text as={'h2'} fontSize={{base:'18px !important', xl: '25px !important'}}><span>Easy</span> TO JOIN AND SHARE</Text>
                     <h3>Includes Complete Marketing System</h3>
                     <div className="form-group">
                       <label>First Name:</label>
@@ -383,7 +383,7 @@ export default function Home() {
         <Box py={24} className="money-back-wrp">
           <Container maxW={'6xl'} className="">
             <Box mb={{ base: 10, xl: 28 }} fontSize={'50px'}>
-              <Text as={'h2'} fontSize={{ base: '20px !important', xl: '39px !important' }}>Our Matrix automatically places everyone that joins <span>AFTER</span> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</Text>
+              <Text as={'h2'} fontSize={{ base: '15px !important', xl: '39px !important' }} lineHeight={{base: '22px !important', xl: '55px !important'}}>Our Matrix automatically places everyone that joins <span>AFTER</span> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</Text>
             </Box>
             <div className="row">
               <div className="col-md-6 col-sm-12">
