@@ -166,7 +166,7 @@ export default function Home() {
                       <label>Email:</label>
                       <input onChange={e => setEmail(e.target.value)} value={email} type="text" name placeholder className="form-control" />
                     </div>
-                
+
                     <h3>Submit your information below OR Skip it and JOIN NOW</h3>
                     <button onClick={handleSubmit} type="submit">Save My Spot</button>
                   </div>
@@ -363,10 +363,12 @@ export default function Home() {
           </div>
         </section> */}
         <Box py={24} className="money-back-wrp">
-          <div className="container">
-            <h2>Our Matrix automatically places everyone that joins <span>AFTER</span><br /> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</h2>
+          <Container maxW={'6xl'} className="">
+            <Box mb={10}>
+              <h2>Our Matrix automatically places everyone that joins <span>AFTER</span><br /> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings and support</h2>
+            </Box>
             <div className="row">
-              <div className="col-md-7 col-sm-12">
+              <div className="col-md-5 col-sm-12">
                 <div className="money-data">
                   <h3>No Ridiculous Qualifiers</h3>
                   <ul>
@@ -379,17 +381,17 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-5 col-sm-12">
+              <div className="col-md-7 col-sm-12">
                 <div className="money-back-img">
                   <img src="/images/complogo2.png" alt />
                 </div>
               </div>
             </div>
-          </div>
+          </Container>
         </Box>
-      
+
         <div className="benefits">
-          <div className="container">
+          <Container className="container" maxW={'7xl'}>
             <div className="row">
               <div className="col-sm-12 col-md-12 col-lg-6">
                 <div className="row">
@@ -457,7 +459,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </Container>
         </div>
         <footer>
           <div className="container">
