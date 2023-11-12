@@ -41,6 +41,15 @@ export default function HomeLayout({ children }) {
                 <script src="/js/bootstrap.min.js"></script>
                 <script src="/js/custom.js"></script>
                 <script src="/facebook-pixel.js"></script>
+
+
+
+                <link href="/asset3/css/bootstrap.min.css" rel="stylesheet" />
+                <link href="/asset3/css/style.css" rel="stylesheet" />
+                {/* <link href="/asset3/fonts/fonts.css" rel="stylesheet" /> */}
+                <link href="/asset3/css/responsive.css" rel="stylesheet" />
+                {/* <link rel="icon" type="image/x-icon" href="/favicon.webp" /> */}
+                {/* <link href="/asset3/css/fontawesome.min.css" rel="stylesheet" /> */}
             </Head>
 
 

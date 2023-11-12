@@ -1,0 +1,941 @@
+/*////////////////////////////////////////////////////// Responsive CSS Structure //////////////////////////////////////////////////////*/
+@media (min-width: 1200px) and (max-width: 1920px) {}
+
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1470px;
+    }
+}
+
+@media (min-width:1400px) and (max-width:1499px) {
+
+    .container {
+        max-width: 1370px;
+    }
+
+    .main-title {
+        font-size: 51px;
+        line-height: 51px;
+        padding: 0 0 50px;
+    }
+
+    .lines .line {
+        width: 844px;
+        height: 470px;
+        border-top-left-radius: 470px;
+        border-top-right-radius: 470px;
+        margin: 0 auto;
+    }
+
+    .autocare-block.block7 {
+        right: -30px;
+    }
+
+    .autocare .auto-img {
+        padding: 120px 0 0;
+    }
+
+    .autocare-block.block6 {
+        right: 0;
+    }
+}
+
+
+
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+
+    .container {
+        max-width: 1270px;
+    }
+    .main-title {
+        font-size: 40px;
+        line-height: 40px;
+        padding: 0 0 40px;
+    }
+
+    .lines .line {
+        width: 730px;
+        height: 445px;
+        border-top-left-radius: 460px;
+        border-top-right-radius: 460px;
+        margin: 0 auto;
+    }
+
+    .autocare-block.block7 {
+        right: -20px;
+    }
+
+    .lines {
+        left: -30px;
+    }
+    .autocare-block.block2 {
+        left: 0;
+        bottom: 260px;
+    }
+
+    .autocare-block .icon {
+        margin-left: 20px;
+    }
+    .b-block .icon {
+        margin-right: 25px;
+    }
+
+    .autocare .auto-img img {
+        max-width: 660px;
+    }
+    .autocare .auto-img {
+        padding: 120px 0 0;
+    }
+
+    .autocare-block.block6 {
+        right: 0;
+        bottom: 260px;
+    }
+
+    .autocare-block.block5 {
+        right: 170px;
+    }
+
+    .autocare-block.block3 {
+        left: 120px;
+    }
+
+    .business-form h2 {
+        font-size: 32px;
+    }
+    .business-form form {
+        padding-top: 20px;
+    }
+
+    .benefits {
+        padding: 95px 0 75px;
+    }
+    .b-block {
+        padding: 0 0 30px;
+    }
+    .get-list ul li {
+        padding: 0 0 25px 30px;
+    }
+
+    .header {
+        padding: 40px 0;
+    }
+    .footer {
+        padding: 40px 0;
+    }
+
+    .autocare-block:nth-child(+n + 5) .icon {
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+    .container {
+        max-width: 1170px;
+    }
+
+    .main-title {
+        font-size: 40px;
+        line-height: 40px;
+        padding: 0 0 40px;
+    }
+
+    .lines .line {
+        width: 680px;
+        height: 415px;
+        border-top-left-radius: 420px;
+        border-top-right-radius: 420px;
+        margin: 0 auto;
+    }
+
+
+    .autocare-block.block4 {
+        top: -80px;
+        }
+
+    .autocare-block h6 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .autocare-block.block7 {
+        right: -20px;
+    }
+
+    .lines {
+        left: -30px;
+    }
+    .autocare-block.block2 {
+        left: 0;
+        bottom: 260px;
+    }
+
+    .autocare-block .icon {
+        margin-left: 20px;
+    }
+    .b-block .icon {
+        margin-right: 25px;
+    }
+
+    .autocare .auto-img img {
+        max-width: 600px;
+    }
+    .autocare .auto-img {
+        padding: 120px 0 0;
+    }
+
+    .autocare-block.block6 {
+        right: 0;
+        bottom: 260px;
+    }
+
+    .autocare-block.block5 {
+        right: 170px;
+    }
+
+    .autocare-block.block3 {
+        left: 120px;
+    }
+
+    .business-form h2 {
+        font-size: 28px;
+    }
+    .business-form form {
+        padding-top: 20px;
+    }
+
+    .business-form span {
+        font-size: 21px;
+        line-height: 21px;
+        margin: 0 0 10px;
+    }
+
+    .business-form p {
+        font-size: 17px;
+        line-height: 17px;
+        margin: 0 0 20px;
+    }
+    .benefits {
+        padding: 70px 0;
+    }
+    .b-block {
+        padding: 0 0 30px;
+    }
+    .get-list ul li {
+        padding: 0 0 25px 30px;
+    }
+
+    .header {
+        padding: 40px 0;
+    }
+    .footer {
+        padding: 40px 0;
+    }
+
+    .autocare-block:nth-child(+n + 5) .icon {
+        margin-right: 20px;
+    }
+
+    .benefit-left h2 {
+        font-size: 38px;
+        line-height: 38px;
+        margin: 0 0 40px;
+    }
+
+    .video-block {
+        height: 500px;
+    }
+    .b-block h3 {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+    .get-list ul li {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .benefit-left .b-label {
+        letter-spacing: 15px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-title {
+        font-size: 30px;
+        line-height: 30px;
+        padding: 0 0 40px;
+    }
+
+    .main-banner {
+        padding: 60px 0 0;
+    }
+    .lines .line {
+        width: 560px;
+        height: 355px;
+        border-top-left-radius: 360px;
+        border-top-right-radius: 360px;
+        margin: 0 auto;
+    }
+
+
+    .autocare-block.block4 {
+        top: -60px;
+    }
+
+    .autocare-block h6 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .autocare-block.block7 {
+        right: -20px;
+    }
+
+    .lines {
+        left: -30px;
+    }
+    .autocare-block.block2 {
+        left: 0;
+        bottom: 230px;
+    }
+
+    .autocare-block .icon {
+        margin-left: 15px;
+        height: 72px;
+        width: 72px;
+        flex: 0 0 72px;
+    }
+    .b-block .icon {
+        margin-right: 15px;
+    }
+
+    .autocare-block {
+        max-width: 250px;
+    }
+    .autocare-block .icon img {
+        width: 49px;
+    }
+
+
+    .get-list ul {
+        padding-left: 40px;
+    }
+
+    .autocare .auto-img img {
+        max-width: 520px;
+    }
+    .autocare .auto-img {
+        padding: 120px 0 0;
+    }
+
+    .autocare-block.block6 {
+        right: 0;
+        bottom: 230px;
+    }
+
+    .autocare {
+        margin: 60px 0 0;
+    }
+
+    .autocare-block.block5 {
+        right: 110px;
+    }
+
+    .autocare-block.block3 {
+        left: 80px;
+    }
+
+    .autocare-block .text {
+        max-width: 180px;
+    }
+    .autocare-block p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .business-sec {
+        padding: 50px 0;
+    }
+
+    .business-form h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0 0 20px;
+    }
+    .business-form form {
+        padding-top: 20px;
+    }
+
+    .business-form span {
+        font-size: 18px;
+        line-height: 18px;
+        margin: 0 0 10px;
+    }
+
+    .business-form p {
+        font-size: 17px;
+        line-height: 17px;
+        margin: 0 0 20px;
+    }
+    .benefits {
+        padding: 70px 0;
+    }
+    .b-block {
+        padding: 0 0 20px;
+    }
+    .get-list ul li {
+        padding:0 0 15px 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .header {
+        padding: 40px 0;
+    }
+    .footer {
+        padding: 40px 0;
+    }
+
+    .autocare-block:nth-child(+n + 5) .icon {
+        margin-right: 15px;
+    }
+
+    .benefit-left h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0 0 30px;
+    }
+
+    .video-block {
+        height: 500px;
+    }
+
+    .benefit-left .get-list h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0 0 25px;
+    }
+    .b-block h3 {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    
+    .benefit-left .b-label {
+        letter-spacing: 15px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .main-title {
+        font-size: 28px;
+        line-height: 28px;
+        padding: 0 0 30px;
+    }
+
+    .main-banner {
+        padding: 60px 0 0;
+    }
+    .lines .line {
+        width: 420px;
+        height: 275px;
+        border-top-left-radius: 270px;
+        border-top-right-radius: 270px;
+        margin: 0 auto;
+    }
+
+
+    .autocare-block.block4 {
+        top: -60px;
+    }
+
+    .autocare-block h6 {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .autocare-block.block7 {
+        right: -30px;
+        bottom: 70px;
+    }
+
+    .lines {
+        left: -30px;
+    }
+    .autocare-block.block2 {
+        left: -30px;
+        bottom: 190px;
+    }
+
+    .autocare-block .icon {
+        margin-left: 10px;
+        height: 60px;
+        width: 60px;
+        flex: 0 0 60px;
+    }
+    .b-block .icon {
+        margin-right: 15px;
+    }
+
+    .autocare-block {
+        max-width: 215px;
+    }
+    .autocare-block .icon img {
+        width: 40px;
+    }
+
+
+    .get-list ul {
+        padding-left: 40px;
+    }
+
+    .autocare .auto-img img {
+        max-width: 350px;
+    }
+    .autocare .auto-img {
+        padding: 120px 0 0;
+    }
+
+    .autocare-block.block6 {
+        right: -30px;
+        bottom: 190px;
+    }
+
+    .autocare-block.block1 {
+        left: -30px;
+        bottom: 70px;
+    }
+    .autocare {
+        margin: 60px 0 0;
+    }
+
+    .autocare-block.block5 {
+        right: 60px;
+        top: -10px;
+    }
+
+    .autocare-block.block3 {
+        left: 60px;
+        top: -10px;
+    }
+
+    .autocare-block .text {
+        max-width: 180px;
+    }
+    .autocare-block p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .business-sec {
+        padding: 50px 0;
+    }
+
+    .business-form h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0 0 20px;
+    }
+    .business-form form {
+        padding-top: 20px;
+    }
+
+    .business-form span {
+        font-size: 18px;
+        line-height: 18px;
+        margin: 0 0 10px;
+    }
+
+    .business-form p {
+        font-size: 17px;
+        line-height: 17px;
+        margin: 0 0 20px;
+    }
+    .benefits {
+        padding: 70px 0;
+    }
+    .b-block {
+        padding: 0 0 20px;
+    }
+
+    .get-list ul li {
+        padding: 0 0 15px 10px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .header {
+        padding: 25px 0;
+    }
+    .footer {
+        padding: 25px 0;
+    }
+
+    .autocare-block:nth-child(+n + 5) .icon {
+        margin-right: 10px;
+    }
+
+    .benefit-left h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0 0 30px;
+    }
+
+    .business-video {
+        max-width: 600px;
+        margin: 0 auto 30px;
+    }
+    .video-block {
+        height: 400px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .business-sec .btn {
+        max-width: 325px;
+        margin: 0 auto;
+    }
+
+    .benefit-left .get-list h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0 0 25px;
+    }
+    .b-block h3 {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    
+    .benefit-left .b-label {
+        letter-spacing: 15px;
+    }
+    .benefit-list {
+        padding-left: 30px;
+        margin-bottom: 0;
+    }
+
+    .lines .line2 {
+        right: -10px;
+        left: 10px;
+        opacity: 0.60;
+    }
+    .lines .line3 {
+        right: -20px;
+        left: 20px;
+        opacity: 0.60;
+    }
+    .lines .line4 {
+        right: -30px;
+        left: 30px;
+        opacity: 0.60;
+    }
+}
+
+@media (min-width: 768px) {}
+
+
+@media (max-width: 767px) {
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .row>* {
+        padding: 0 15px;
+    }
+     .main-title {
+        font-size: 36px;
+        line-height: 48px;
+        padding: 0 0 50px;
+    }
+
+    .main-banner .image {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 0 45px;
+    }
+    .main-banner {
+        padding: 60px 0 0;
+        background-position: center center;
+    }
+
+    .lines {
+        left: -30px;
+        display: none;
+    }
+    
+    .autocare-block .icon {
+        margin: 0 auto 30px !important;
+    }
+    .b-block .icon {
+       margin: 0 auto 20px;
+    }
+
+    .autocare-block {
+        max-width: 215px;
+        position: relative;
+        max-width: 100%;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        transform: none !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        padding: 0 0 60px;
+    }
+    
+
+
+    .get-list ul {
+        padding-left: 20px;
+    }
+
+    .benefit-image .bg-img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        margin: -100px;
+        top: 0;
+        left: 0;
+    }
+
+    .benefit-image {
+        margin: 60px 0 0;
+        position: relative;
+    }
+
+    .autocare .auto-img {
+        padding: 120px 0 0;
+    }
+
+    .autocare {
+        margin: 0;
+    }
+
+
+    .autocare-block .text {
+        max-width: 100%;
+    }
+
+    .autocare-list {
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+    }
+
+       
+    .benefits {
+        padding: 70px 0;
+    }
+    .b-block {
+        padding: 0 0 40px;
+        display: block;
+        text-align: center;
+    }
+
+   
+
+
+    .benefit-left h2 {
+        font-size: 36px;
+        line-height: 36px;
+        margin: 0 0 60px;
+        text-align: center;
+    }
+
+    .business-video {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .video-block {
+        height: 260px;
+        margin: 0 auto;
+    }
+
+    .business-sec .btn {
+        max-width: 100%;
+        margin: 0 auto 38px;
+    }
+
+    .video-block .play-btn i {
+        height: 42px;
+        width: 42px;
+    }
+    .video-block .play-btn {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .benefit-left .get-list {
+        padding-top: 65px;
+    }
+    .benefit-left .get-list h2 {
+        font-size: 36px;
+        line-height: 36px;
+        margin: 0 0 35px;
+        text-align: center;
+    }
+    .b-block h3 {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    
+    .benefit-left .b-label {
+        letter-spacing: 15px;
+        display: none;
+    }
+    .benefit-list {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .main-banner .image .img1 {
+        max-width: 100%;
+        margin-bottom: 45px;
+    }
+    .autocare .auto-img .circle {
+        display: none;
+    }
+
+    .business-sec .row {
+        flex-direction: column-reverse;
+    }
+    .business-sec .main-title {
+        padding: 0 0 35px;
+    }
+
+    .business-form {
+        text-align: center;
+    }
+
+    .business-form h2 {
+        font-size: 24px;
+        line-height: 36px;
+        margin: 0 0 24px;
+    }
+    .business-form span {
+        line-height: 36px;
+    }
+
+    .business-form form {
+        padding-top: 20px;
+    }
+    .form-control {
+        text-align: center;
+    }
+    .get-list ul li {
+        padding: 0 0 25px;
+    }
+
+    .autocare-block h6 {
+        margin: 0 0 20px;
+    }
+}
+
+
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+/*=== Screen Size = 240, 320, 360, 480, 568 ===*/
+
+
+@media (max-width: 389px) {
+    .business-sec {
+        padding: 50px 0;
+    }
+
+    .business-form h2 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 20px;
+    }
+    .business-form form {
+        padding-top: 20px;
+    }
+
+    .business-form span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .b-block h3 {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    .benefit-left .get-list {
+        padding-top: 35px;
+    }
+
+
+    .benefit-image {
+        margin: 30px 0 0;
+     }
+    .b-block {
+        padding: 0 0 20px;
+    }
+
+    .benefits {
+        padding: 40px 0;
+    }
+    .business-form p {
+        font-size: 17px;
+        line-height: 17px;
+        margin: 0 0 20px;
+    }
+    .get-list ul li {
+        padding: 0 0 15px 10px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .main-title {
+        font-size: 24px;
+        line-height: 32px;
+        padding: 0 0 30px;
+    }
+
+    .autocare-block {
+        padding: 0 0 40px;
+    }
+    .autocare-block h6 {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0 0 15px;
+    }
+
+    .autocare-block .icon {
+        margin: 0 auto 20px !important;
+    }
+
+    .autocare .auto-img {
+        padding: 40px 0 0;
+    }
+
+    .main-banner .image .img2,
+    .main-banner .image .img3 {
+        max-width: 50%;
+    }.header {
+        padding: 25px 0;
+    }
+    .footer {
+        padding: 25px 0;
+    }
+}
+
+
+@media (max-width: 575px) {
+    
+}
+
+
+@media (min-width: 240px) and (max-width: 575px) {}
+
+/*---------- Large Desktop , Large Screen End ----------*/

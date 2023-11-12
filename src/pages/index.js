@@ -1,5 +1,5 @@
 import Axios from '@/Helpers/Axios'
-import { Button, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure, useToast } from '@chakra-ui/react'
+import { Box, Button, Container, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure, useToast } from '@chakra-ui/react'
 import Cookies from 'js-cookie'
 import { useEffect, useState } from 'react'
 import HomeLayout from '../Layout/HomeLayout'
@@ -127,7 +127,7 @@ export default function Home() {
     <HomeLayout>
       <div className="main-wrpper">
         <section className="banner-wrapper">
-          <div className="container">
+          <Container maxW={'5xl'}>
             {sponsord && <div className="headtitle">
               <h6>Referred by: {sponsord}</h6>
             </div>}
@@ -173,7 +173,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </Container>
         </section>
         {/* <section className="quality-wrp">
           <div className="container">
@@ -387,6 +387,188 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <div className="main-banner">
+          <div className="container">
+            <div className="main-title">
+              <h2><span>Get YOUR</span> piece of the <span>$13 BILLION</span> AutoCare Industry</h2>
+            </div>
+            <div className="autocare">
+              <div className="autocare-list">
+                <div className="autocare-block block1">
+                  <div className="icon">
+                    <img src="/asset3/images/care-icon.png" alt="care" className="img-fluid" />
+                  </div>
+                  <div className="text">
+                    <h6>Cleans Fuel
+                      System &amp; Engine</h6>
+                    <p>Increase fuel efficiency and
+                      reduce maintenance</p>
+                  </div>
+                </div>
+                <div className="autocare-block block2">
+                  <div className="icon">
+                    <img src="/asset3/images/care-icon.png" alt="care" className="img-fluid" />
+                  </div>
+                  <div className="text">
+                    <h6>Reduce
+                      Carbon Build Up</h6>
+                    <p>Better performance.
+                      Smoother running</p>
+                  </div>
+                </div>
+                <div className="autocare-block block3">
+                  <div className="icon">
+                    <img src="/asset3/images/care-icon.png" alt="care" className="img-fluid" />
+                  </div>
+                  <div className="text">
+                    <h6>Increases
+                      Horsepower</h6>
+                    <p>More overall
+                      power and torque.</p>
+                  </div>
+                </div>
+                <div className="autocare-block block4">
+                  <div className="icon">
+                    <img src="/asset3/images/care-icon.png" alt="care" className="img-fluid" />
+                  </div>
+                  <div className="text">
+                    <h6>Extends Life of Engine</h6>
+                    <p>Longer Life.
+                      Bigger Savings.</p>
+                  </div>
+                </div>
+                <div className="autocare-block block5">
+                  <div className="icon">
+                    <img src="/asset3/images/care-icon.png" alt="care" className="img-fluid" />
+                  </div>
+                  <div className="text">
+                    <h6>Cleaner Oil</h6>
+                    <p>Less wear and friction</p>
+                  </div>
+                </div>
+                <div className="autocare-block block6">
+                  <div className="icon">
+                    <img src="/asset3/images/care-icon.png" alt="care" className="img-fluid" />
+                  </div>
+                  <div className="text">
+                    <h6>Increase Fuel
+                      Economy</h6>
+                    <p>More miles to the gallon
+                      / Km to the liter.</p>
+                  </div>
+                </div>
+                <div className="autocare-block block7">
+                  <div className="icon">
+                    <img src="/asset3/images/care-icon.png" alt="care" className="img-fluid" />
+                  </div>
+                  <div className="text">
+                    <h6>Decreases harmful
+                      Emissions</h6>
+                    <p>Reduce your carbon
+                      footprint on the environment.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="auto-img">
+                <div className="lines">
+                  <div className="line line1" />
+                  <div className="line line2" />
+                  <div className="line line3" />
+                  <div className="line line4" />
+                </div>
+                <div className="circle">
+                  <img src="/asset3/images/circle.png" alt="circle" className="img-fluid" />
+                </div>
+                <div style={{ paddingLeft: '120px' }} className="image d-none d-md-block">
+                  <img src="/asset3/images/product-img.png" alt="product-img" className="img-fluid" />
+                </div>
+
+                <div className="image d-flex d-md-none">
+                  <div className="img1">
+                    <img src="/asset3/images/pro1.png" alt="product-img" width={254} className="img-fluid" />
+                  </div>
+                  <div className="img2">
+                    <img src="/asset3/images/pro2.png" alt="product-img" width={155} className="img-fluid" />
+                  </div>
+                  <div className="img3">
+                    <img src="/asset3/images/pro3.png" alt="product-img" width={196} className="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="benefits">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12 col-md-12 col-lg-6">
+                <div className="row">
+                  <div className="col-sm-12 col-md-6 col-lg-12">
+                    <div className="benefit-left">
+                      <h2>You Could Earn:</h2>
+                      <div className="benefit-list">
+                        <div className="b-label">
+                          BENEFITS
+                        </div>
+                        <div className="b-block">
+                          <div className="icon">
+                            <img src="/asset3/images/icon1.png" alt="icon" width={37} className="img-fluid" />
+                          </div>
+                          <h3>Up to 35% commissions</h3>
+                        </div>
+                        <div className="b-block">
+                          <div className="icon">
+                            <img src="/asset3/images/icon2.png" alt="icon" width={36} className="img-fluid" />
+                          </div>
+                          <h3>Bonuses and free vacations</h3>
+                        </div>
+                        <div className="b-block">
+                          <div className="icon">
+                            <img src="/asset3/images/icon3.png" alt="icon" width={34} className="img-fluid" />
+                          </div>
+                          <h3>Residual commissions on all re-orders</h3>
+                        </div>
+                        <div className="b-block">
+                          <div className="icon">
+                            <img src="/asset3/images/icon4.png" alt="icon" width={23} className="img-fluid" />
+                          </div>
+                          <h3>Free Products</h3>
+                        </div>
+                        <div className="b-block">
+                          <div className="icon">
+                            <img src="/asset3/images/icon5.png" alt="icon" width={38} className="img-fluid" />
+                          </div>
+                          <h3>Fuel Savings Plus</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-12 col-md-6 col-lg-12">
+                    <div className="benefit-left">
+                      <div className="get-list">
+                        <h2>What you get:</h2>
+                        <ul>
+                          <li>Free training and support</li>
+                          <li>Free e-commerce website</li>
+                          <li>Free Landing pages and marketing system</li>
+                          <li>Free backoffice and management tools</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-12 col-md-12 col-lg-6">
+                <div className="benefit-image">
+                  <img src="/asset3/images/benefit.png" alt="benefit" className="img-fluid" />
+                  <div className="bg-img">
+                    <img src="/asset3/images/img-b.png" alt="benefit" className="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <footer>
           <div className="container">
             <h6>Training by million dollar producers. Marketing systems that do the heavy lifting. E-commerce platform that automatically sets up your FREE commission  generating online store.</h6>
