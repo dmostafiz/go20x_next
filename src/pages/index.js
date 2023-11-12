@@ -171,7 +171,7 @@ export default function Home() {
                 <div className="join-frm">
                   <div className="join-block">
                     <Text as={'h2'} fontSize={{base:'18px !important', xl: '25px !important'}}><span>Easy</span> TO JOIN AND SHARE</Text>
-                    <h3>Includes Complete Marketing System</h3>
+                    <Text as={'h3'} fontSize={{base: '15px !important', xl: '20px !important'}}>Includes Complete Marketing System</Text>
                     <div className="form-group">
                       <label>First Name:</label>
                       <input onChange={e => setFirstName(e.target.value)} value={firstName} type="text" name placeholder className="form-control" />
