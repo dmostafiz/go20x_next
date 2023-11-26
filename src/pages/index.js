@@ -3,6 +3,7 @@ import { Box, Button, Container, Flex, FormControl, FormLabel, Image, Input, Mod
 import Cookies from 'js-cookie'
 import { useEffect, useState } from 'react'
 import HomeLayout from '../Layout/HomeLayout'
+import GoogleTranslator from '@/GoogleTranslator'
 
 export default function Home() {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -143,17 +144,17 @@ export default function Home() {
             <div className="row">
               <div className="col-md-5 col-12">
                 <Box w={'full'} className="banner-txt">
-                  <Text ml={{base: '5px !important', lg: '0px !important'}} as={'h3'} textAlign={'center !important'} fontSize={{ base: '27px !important', lg: '36px !important' }}>This $20 business changes</Text>
+                  <Text ml={{ base: '5px !important', lg: '0px !important' }} as={'h3'} textAlign={'center !important'} fontSize={{ base: '27px !important', lg: '36px !important' }}>This $20 business changes</Text>
                   <Text as='h1' mt={'-15px !important'} fontSize={{ base: '', lg: '70px !important' }}>EVERYTHING</Text>
-                  <Box position={'relative'} mb={{xl:'-100px'}}>
+                  <Box position={'relative'} mb={{ xl: '-100px' }}>
                     <Box>
                       <h4>A Global Opportunity</h4>
-                      <Text as={'h2'} fontSize={{base: '', xl: '36px !important'}} fontWeight={'bold !important'}>WATCH THIS VIDEO</Text>
+                      <Text as={'h2'} fontSize={{ base: '', xl: '36px !important' }} fontWeight={'bold !important'}>WATCH THIS VIDEO</Text>
                       <p>Network Marketing will never be the same</p>
                     </Box>
 
                     <Show above='lg'>
-                    <Image top={'-120'} right={'-350px'} position={'relative'} src='/images/down-arr.png' />
+                      <Image top={'-120'} right={'-350px'} position={'relative'} src='/images/down-arr.png' />
                     </Show>
                   </Box>
                   <div className="video-bx">
@@ -170,8 +171,8 @@ export default function Home() {
               <div className="col-md-5 col-12">
                 <div className="join-frm">
                   <div className="join-block">
-                    <Text as={'h2'} fontSize={{base:'18px !important', xl: '25px !important'}}><span>Easy</span> TO JOIN AND SHARE</Text>
-                    <Text as={'h3'} fontSize={{base: '15px !important', xl: '20px !important'}}>Includes Complete Marketing System</Text>
+                    <Text as={'h2'} fontSize={{ base: '18px !important', xl: '25px !important' }}><span>Easy</span> TO JOIN AND SHARE</Text>
+                    <Text as={'h3'} fontSize={{ base: '15px !important', xl: '20px !important' }}>Includes Complete Marketing System</Text>
                     <div className="form-group">
                       <label>First Name:</label>
                       <input onChange={e => setFirstName(e.target.value)} value={firstName} type="text" name placeholder className="form-control" />
@@ -185,7 +186,7 @@ export default function Home() {
                       <input onChange={e => setEmail(e.target.value)} value={email} type="text" name placeholder className="form-control" />
                     </div>
 
-                    <Text as={'h3'} fontSize={{base: '12px !important', xl: '15px !important'}}>We will send your login credentials to email above</Text>
+                    <Text as={'h3'} fontSize={{ base: '12px !important', xl: '15px !important' }}>We will send your login credentials to email above</Text>
                     <button onClick={handleSubmit} type="submit">Save My Spot</button>
                   </div>
                 </div>
@@ -383,7 +384,7 @@ export default function Home() {
         <Box py={24} className="money-back-wrp">
           <Container maxW={'6xl'} className="">
             <Box mb={{ base: 10, xl: 28 }} fontSize={'50px'}>
-              <Text as={'h2'} fontSize={{ base: '15px !important', xl: '39px !important' }} lineHeight={{base: '22px !important', xl: '55px !important'}}>Our Matrix automatically places everyone that joins <span>AFTER</span> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings</Text>
+              <Text as={'h2'} fontSize={{ base: '15px !important', xl: '39px !important' }} lineHeight={{ base: '22px !important', xl: '55px !important' }}>Our Matrix automatically places everyone that joins <span>AFTER</span> you <span>BELOW</span> you to <span>MAXIMIZE</span> earnings</Text>
             </Box>
             <div className="row">
               <div className="col-md-6 col-sm-12">
@@ -508,6 +509,10 @@ export default function Home() {
           </ModalFooter>
         </ModalContent>
       </Modal>
+
+      <Box position={'fixed'} top={{ xl: '1' }} bottom={{base: 1}}>
+        <GoogleTranslator />
+      </Box>
     </HomeLayout>
   )
 }
