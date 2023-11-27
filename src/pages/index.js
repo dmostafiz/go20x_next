@@ -471,7 +471,7 @@ export default function Home() {
               </div>
               <div className="col-sm-12 col-md-12 col-lg-6">
                 <div className="benefit-image">
-                  <img src="/benefit.png" alt="benefit" className="img-fluid" />
+                  <img src="https://webexe.s3.ap-southeast-1.amazonaws.com/benefit.png" alt="benefit" className="img-fluid" />
                   <div className="bg-img">
                     <img src="/asset3/images/img-b.png" alt="benefit" className="img-fluid" />
                   </div>
