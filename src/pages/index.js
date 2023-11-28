@@ -510,7 +510,7 @@ export default function Home() {
         </ModalContent>
       </Modal>
 
-      <Box position={'fixed'} top={{ xl: '1' }} bottom={{base: 1}} zIndex={50}>
+      <Box position={'fixed'} top={{ xl: 1 }} bottom={{ base: 1 }} left={{ xl: 1 }} right={{ base: 1 }} w={'150px'} zIndex={50}>
         <GoogleTranslator />
       </Box>
     </HomeLayout>
