@@ -34,13 +34,19 @@ export default function username() {
 
         if (!res?.data?.ok) {
 
-            return toast({
+            toast({
                 title: 'Sponsor verification failed',
                 description: "",
                 status: 'error',
                 duration: 9000,
                 isClosable: true,
             })
+
+            setTimeout(() => {
+                window.location.href = `/`
+            })
+
+            return 
 
         }
         else {
