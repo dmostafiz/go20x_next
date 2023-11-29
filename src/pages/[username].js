@@ -13,12 +13,17 @@ export default function username() {
 
         if (router?.query?.username) {
             handleVerify(router?.query?.username)
-            setTimeout(() => {
-                window.location.href = `/`
-            }, 500)
         }
 
     }, [router?.query])
+
+    useEffect(() => {
+
+        if (router?.query?.username) {
+            handleVerify(router?.query?.username)
+        }
+
+    }, [])
 
     const handleVerify = async (username) => {
         if (!username) {
@@ -52,7 +57,7 @@ export default function username() {
 
             setTimeout(() => {
                 window.location.href = `/`
-            }, 500)
+            })
         }
     }
 
