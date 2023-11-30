@@ -87,6 +87,25 @@ export default function Home() {
       })
     }
 
+
+    const validateEmail = (checkEmail) => {
+      return checkEmail.match(
+        /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      );
+    };
+
+
+    if (!validateEmail(email)) {
+      return toast({
+        title: 'Invalid Email address!',
+        description: "",
+        status: 'error',
+        duration: 9000,
+        isClosable: true,
+      })
+    }
+
+
     const res = await Axios.post('/contact', {
       first_name: firstName,
       last_name: lastName,
