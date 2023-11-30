@@ -87,15 +87,10 @@ export default function Home() {
       })
     }
 
-
-    function validateEmail(checkEmail){
-      return checkEmail.match(
-        /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-      );
-    };
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
 
-    if (!validateEmail(email)) {
+    if (!filter.test(email)) {
       return toast({
         title: 'Invalid Email address!',
         description: "",
