@@ -36,7 +36,6 @@ export default function HomeLayout({ children }) {
                 <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
                 <link rel="stylesheet" type="text/css" href="/css/style.css" />
                 <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
-
                 <script src="/js/jquery.js"></script>
                 <script src="/js/bootstrap.min.js"></script>
                 <script src="/js/custom.js"></script>
@@ -50,6 +49,7 @@ export default function HomeLayout({ children }) {
                 <link href="/asset3/css/responsive.css" rel="stylesheet" />
                 {/* <link rel="icon" type="image/x-icon" href="/favicon.webp" /> */}
                 {/* <link href="/asset3/css/fontawesome.min.css" rel="stylesheet" /> */}
+                <meta name="google-adsense-account" content="ca-pub-3553117904199504" />
             </Head>
 
 
