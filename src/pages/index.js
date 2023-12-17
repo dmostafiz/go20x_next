@@ -4,12 +4,14 @@ import Cookies from 'js-cookie'
 import { useEffect, useState } from 'react'
 import HomeLayout from '../Layout/HomeLayout'
 import GoogleTranslator from '@/GoogleTranslator'
+import countries from '@/Helpers/countries'
 
 export default function Home() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [sponsord, setSponsed] = useState()
 
   const [username, setUsername] = useState(null)
+
   const toast = useToast()
 
   useEffect(() => {
@@ -58,6 +60,7 @@ export default function Home() {
   const [firstName, setFirstName] = useState()
   const [lastName, setLastName] = useState()
   const [email, setEmail] = useState()
+  const [country, setCountry] = useState('')
   const [phoneNumber, setPhoneNumber] = useState('')
 
   const handleSubmit = async () => {
@@ -77,7 +80,7 @@ export default function Home() {
       return onOpen()
     }
 
-    if (!firstName || !lastName || !email) {
+    if (!firstName || !lastName || !email || !country) {
       return toast({
         title: 'All fields are required!',
         description: "",
@@ -107,18 +110,14 @@ export default function Home() {
       email: email,
       phone_number: phoneNumber,
       sponsorId: sponsor,
+      country,
       contactHost: 'go20x'
     })
 
     if (res?.data?.ok) {
       Cookies.remove('sponsor')
 
-      if (res?.data?.credentials) {
-        const credentials = res?.data?.credentials
-        return window.location.href = `https://shopxcelerate.com/auth/user_login?username=${credentials?.username}&password=${credentials?.password}`
-      } else {
-        window.location.href = `https://shopxcelerate.com/`
-      }
+      return window.location.href = `https://shopxcelerate.com/auth/create_credential?token=${res?.data?.token}&email=${res?.data?.email}&uid=${res?.data?.user_id}`
 
     } else {
       toast({
@@ -198,6 +197,16 @@ export default function Home() {
                     <div className="form-group">
                       <label>Email:</label>
                       <input onChange={e => setEmail(e.target.value)} value={email} type="text" name placeholder className="form-control" />
+                    </div>
+
+                    <div className="form-group">
+                      <label>Country:</label>
+                      <select className="form-control" placeholder={'Select your country'} value={country} onChange={e => setCountry(e.target.value)}>
+                        <option value=''>Select Country</option>
+                        {countries.map(cntry => {
+                          return <option key={cntry} value={cntry}>{cntry}</option>
+                        })}
+                      </select>
                     </div>
 
                     <Text as={'h3'} fontSize={{ base: '12px !important', xl: '15px !important' }}>We will send your login credentials to email above</Text>
