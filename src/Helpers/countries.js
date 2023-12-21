@@ -54,7 +54,6 @@ const countries = [
     'Honduras',
     'Hong Kong',
     'Hungary',
-    'India',
     'Indonesia',
     'Ireland',
     'Israel',
