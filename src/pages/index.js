@@ -127,11 +127,6 @@ export default function Home() {
         duration: 9000,
         isClosable: true,
       })
-
-      setTimeout(() => {
-        window.location.href = `/`
-      }, 500)
-
     }
   }
 
