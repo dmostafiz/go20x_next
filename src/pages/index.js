@@ -128,8 +128,6 @@ export default function Home() {
         isClosable: true,
       })
 
-      Cookies.remove('sponsor')
-
       setTimeout(() => {
         window.location.href = `/`
       }, 500)

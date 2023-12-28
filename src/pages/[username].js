@@ -17,15 +17,9 @@ export default function username() {
 
     }, [router?.query])
 
-    useEffect(() => {
-
-        if (router?.query?.username) {
-            handleVerify(router?.query?.username)
-        }
-
-    }, [])
-
+    
     const handleVerify = async (username) => {
+
         if (!username) {
             return alert('Please enter a username')
         }
@@ -46,7 +40,7 @@ export default function username() {
                 window.location.href = `/`
             })
 
-            return 
+            return
 
         }
         else {
@@ -61,9 +55,8 @@ export default function username() {
                 isClosable: true,
             })
 
-            setTimeout(() => {
-                window.location.href = `/`
-            })
+            return window.location.href = `/`
+
         }
     }
 
