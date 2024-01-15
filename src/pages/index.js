@@ -165,7 +165,7 @@ export default function Home() {
                   </Box>
                   <div className="video-bx">
                     <div className="youtube-video">
-                      <iframe width="100%" height={620} src="https://www.youtube.com/embed/65JiGVxLvlg" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+                      <iframe width="100%" height={620} src="https://www.youtube.com/embed/rebHrLVeurQ?si=tNkTmSByEQqXymLh" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
                     </div>
                     <a href="javascript:void(0);" className="play-icon">
                       <i className="far fa-play-circle fa-fw" />
