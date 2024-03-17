@@ -80,6 +80,31 @@ export default function Home() {
       return onOpen()
     }
 
+    if(firstName?.length > 10){
+      toast({
+        title: 'First name must be maximum 10 character',
+        description: "",
+        status: 'error',
+        duration: 9000,
+        isClosable: true,
+      })
+
+      return
+    }
+
+    if(lastName?.length > 10){
+      toast({
+        title: 'Last name must be maximum 10 character',
+        description: "",
+        status: 'error',
+        duration: 9000,
+        isClosable: true,
+      })
+
+      return
+    }
+
+
     if (!firstName || !lastName || !email || !country) {
       return toast({
         title: 'All fields are required!',
