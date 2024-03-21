@@ -80,9 +80,9 @@ export default function Home() {
       return onOpen()
     }
 
-    if(firstName?.length > 10){
+    if(firstName?.length > 15){
       toast({
-        title: 'First name must be maximum 10 character',
+        title: 'First name must be maximum 15 character',
         description: "",
         status: 'error',
         duration: 9000,
@@ -92,9 +92,9 @@ export default function Home() {
       return
     }
 
-    if(lastName?.length > 10){
+    if(lastName?.length > 15){
       toast({
-        title: 'Last name must be maximum 10 character',
+        title: 'Last name must be maximum 15 character',
         description: "",
         status: 'error',
         duration: 9000,
