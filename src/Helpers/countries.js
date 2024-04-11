@@ -85,6 +85,7 @@ const countries = [
     'New Zealand',
     'Nicaragua',
     'Niger',
+    'Nigeria',
     'Norway',
     'Oman',
     'Pakistan',
