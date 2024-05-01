@@ -443,7 +443,7 @@ export default function Home() {
               </div>
               <div className="col-md-6 col-sm-12">
                 <div className="money-back-img">
-                  <img src="https://webexe.s3.ap-southeast-1.amazonaws.com/complogo2.png" alt />
+                  <img src="/complogo2.png" alt />
                 </div>
               </div>
             </div>
